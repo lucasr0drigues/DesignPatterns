@@ -5,17 +5,17 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalPatterns", "CreationalPatterns", "{CA26CADB-B473-4F7C-A3F0-00CB1EEF4A81}"
 	ProjectSection(SolutionItems) = preProject
-		Creational Patterns.txt = Creational Patterns.txt
+		Creational Patterns.md = Creational Patterns.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralPatterns", "BehavioralPatterns", "{DF148A0D-939B-432C-A222-7C389BF05E31}"
 	ProjectSection(SolutionItems) = preProject
-		Behavioral Patterns.txt = Behavioral Patterns.txt
+		Behavioral Patterns.md = Behavioral Patterns.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructuralPatterns", "StructuralPatterns", "{D605E6F8-CB7B-4242-B146-8DF29F4B4F65}"
 	ProjectSection(SolutionItems) = preProject
-		Structural Patterns.txt = Structural Patterns.txt
+		Structural Patterns.md = Structural Patterns.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "CreationalPatterns\FactoryMethod\FactoryMethod.csproj", "{CFC43FDC-B569-459A-8ED0-EE56B047319F}"
