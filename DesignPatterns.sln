@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "StructuralPatter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "StructuralPatterns\Bridge\Bridge.csproj", "{BB29743C-CCCD-4BCA-9D60-B77AD1057DDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "StructuralPatterns\Composite\Composite.csproj", "{24896AE5-79A3-453C-AB38-F8FF4F9E9778}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -122,6 +124,18 @@ Global
 		{BB29743C-CCCD-4BCA-9D60-B77AD1057DDA}.Release|x64.Build.0 = Release|Any CPU
 		{BB29743C-CCCD-4BCA-9D60-B77AD1057DDA}.Release|x86.ActiveCfg = Release|Any CPU
 		{BB29743C-CCCD-4BCA-9D60-B77AD1057DDA}.Release|x86.Build.0 = Release|Any CPU
+		{24896AE5-79A3-453C-AB38-F8FF4F9E9778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24896AE5-79A3-453C-AB38-F8FF4F9E9778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24896AE5-79A3-453C-AB38-F8FF4F9E9778}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{24896AE5-79A3-453C-AB38-F8FF4F9E9778}.Debug|x64.Build.0 = Debug|Any CPU
+		{24896AE5-79A3-453C-AB38-F8FF4F9E9778}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{24896AE5-79A3-453C-AB38-F8FF4F9E9778}.Debug|x86.Build.0 = Debug|Any CPU
+		{24896AE5-79A3-453C-AB38-F8FF4F9E9778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24896AE5-79A3-453C-AB38-F8FF4F9E9778}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24896AE5-79A3-453C-AB38-F8FF4F9E9778}.Release|x64.ActiveCfg = Release|Any CPU
+		{24896AE5-79A3-453C-AB38-F8FF4F9E9778}.Release|x64.Build.0 = Release|Any CPU
+		{24896AE5-79A3-453C-AB38-F8FF4F9E9778}.Release|x86.ActiveCfg = Release|Any CPU
+		{24896AE5-79A3-453C-AB38-F8FF4F9E9778}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -134,6 +148,7 @@ Global
 		{DBA269BB-5B9B-4EC9-AE4F-0CED7B68138F} = {FB3B0A2D-FAA1-7B64-44ED-839676C58401}
 		{E8DD43A0-1C48-4B7D-8966-9E6DA7F349CD} = {3644C5E3-2C3E-96E3-BD46-F213F08D758F}
 		{BB29743C-CCCD-4BCA-9D60-B77AD1057DDA} = {3644C5E3-2C3E-96E3-BD46-F213F08D758F}
+		{24896AE5-79A3-453C-AB38-F8FF4F9E9778} = {3644C5E3-2C3E-96E3-BD46-F213F08D758F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F8E1C48F-75A4-4AF4-9A36-FB84F66BB2D4}
