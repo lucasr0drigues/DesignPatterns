@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "StructuralPatt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "StructuralPatterns\Decorator\Decorator.csproj", "{1284C266-5783-4067-8098-CD4534BCBB29}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "StructuralPatterns\Facade\Facade.csproj", "{93637ECA-2E82-4540-922C-75CD91C72365}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -150,6 +152,18 @@ Global
 		{1284C266-5783-4067-8098-CD4534BCBB29}.Release|x64.Build.0 = Release|Any CPU
 		{1284C266-5783-4067-8098-CD4534BCBB29}.Release|x86.ActiveCfg = Release|Any CPU
 		{1284C266-5783-4067-8098-CD4534BCBB29}.Release|x86.Build.0 = Release|Any CPU
+		{93637ECA-2E82-4540-922C-75CD91C72365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93637ECA-2E82-4540-922C-75CD91C72365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93637ECA-2E82-4540-922C-75CD91C72365}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{93637ECA-2E82-4540-922C-75CD91C72365}.Debug|x64.Build.0 = Debug|Any CPU
+		{93637ECA-2E82-4540-922C-75CD91C72365}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{93637ECA-2E82-4540-922C-75CD91C72365}.Debug|x86.Build.0 = Debug|Any CPU
+		{93637ECA-2E82-4540-922C-75CD91C72365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93637ECA-2E82-4540-922C-75CD91C72365}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93637ECA-2E82-4540-922C-75CD91C72365}.Release|x64.ActiveCfg = Release|Any CPU
+		{93637ECA-2E82-4540-922C-75CD91C72365}.Release|x64.Build.0 = Release|Any CPU
+		{93637ECA-2E82-4540-922C-75CD91C72365}.Release|x86.ActiveCfg = Release|Any CPU
+		{93637ECA-2E82-4540-922C-75CD91C72365}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -164,6 +178,7 @@ Global
 		{BB29743C-CCCD-4BCA-9D60-B77AD1057DDA} = {3644C5E3-2C3E-96E3-BD46-F213F08D758F}
 		{24896AE5-79A3-453C-AB38-F8FF4F9E9778} = {3644C5E3-2C3E-96E3-BD46-F213F08D758F}
 		{1284C266-5783-4067-8098-CD4534BCBB29} = {3644C5E3-2C3E-96E3-BD46-F213F08D758F}
+		{93637ECA-2E82-4540-922C-75CD91C72365} = {3644C5E3-2C3E-96E3-BD46-F213F08D758F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F8E1C48F-75A4-4AF4-9A36-FB84F66BB2D4}
