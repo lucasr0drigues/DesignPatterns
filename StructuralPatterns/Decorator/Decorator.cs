@@ -29,6 +29,6 @@ namespace Decorator
                 return string.Empty;
             }
         }
-            
+
     }
 }

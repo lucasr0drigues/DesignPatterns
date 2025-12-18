@@ -8,12 +8,12 @@ namespace Decorator
     {
         public ConcreteDecoratorB(Component component) : base(component)
         {
-            
+
         }
 
         public override string Operation()
         {
-                return $"Concrete Decorator B({base.Operation()})";
+            return $"Concrete Decorator B({base.Operation()})";
         }
     }
 }

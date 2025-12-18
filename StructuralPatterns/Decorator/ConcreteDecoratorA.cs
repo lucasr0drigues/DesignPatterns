@@ -12,7 +12,7 @@ namespace Decorator
 
         public override string Operation()
         {
-                return $"Concrete Decorator A({base.Operation()})";
+            return $"Concrete Decorator A({base.Operation()})";
         }
     }
 }
