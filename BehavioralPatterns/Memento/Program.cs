@@ -1,2 +1,25 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Memento;
+
+Originator originator = new Originator("Super-duper");
+Caretaker caretaker = new Caretaker(originator);
+
+caretaker.Backup();
+originator.DoSomething();
+
+caretaker.Backup();
+originator.DoSomething();
+
+caretaker.Backup();
+originator.DoSomething();
+
+Console.WriteLine();
+
+caretaker.ShowHistory();
+
+Console.WriteLine("\nClient: Now, let's rollback:\n");
+caretaker.Undo();
+
+Console.WriteLine("\n\nClient: Once more:");
+caretaker.Undo();
+
+Console.WriteLine();
