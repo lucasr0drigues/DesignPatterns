@@ -47,7 +47,7 @@ namespace Memento
 
         public void ShowHistory()
         {
-            Console.WriteLine("Caretaker: Here's the lsit of mementos: ");
+            Console.WriteLine("Caretaker: Here's the list of mementos: ");
 
             foreach(var memento in _mementos)
             {
