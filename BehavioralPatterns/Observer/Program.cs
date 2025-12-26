@@ -1,2 +1,18 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Observer;
+
+var subject = new Subject();
+
+var observerA = new ConcreteObserverA();
+var observerB = new ConcreteObserverB();
+
+subject.Attach(observerA);
+subject.Attach(observerB);
+
+subject.SomeBusinessLogic();
+subject.SomeBusinessLogic();
+subject.SomeBusinessLogic();
+
+subject.Detach(observerB);
+
+subject.SomeBusinessLogic();
+subject.SomeBusinessLogic();
